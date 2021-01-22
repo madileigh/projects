@@ -1,0 +1,5 @@
+Est_Id,EName,Address,Waste_Pts,Type
+MCD_123,McDonald's - Little Rd,"2312 Little Road, Fort Worth, Texas, 76006",100,FastFood
+CHF_241,Chick-Fil-A - Big St,"3412 Big Street, Fort Worth, Texas, 76008",50,FastFood
+STR_789,Starbucks - Medium Ct,"1232 Medium Ct, Dallas, Texas, 75008",150,Cafe
+OLG_312,Olive Garden - Reel St,"2315 Reel St, Arlington, Texas, 76013",0,Restaurant

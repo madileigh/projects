@@ -1,0 +1,115 @@
+body {
+  background-color: darkseagreen;
+  width: inherit;
+  height: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategray;
+}
+
+mark {
+  background-color: transparent;
+  color: red;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 70px;
+  overflow-x: hidden;
+  }
+
+  .logo {
+    border-left-width: 10px;
+    float: center;
+    padding-top: 50px;
+  }
+
+  .left {
+    text-align: center;
+    left: 0;
+    background-color: #ACDF87;
+    color: darkslategray;
+  }
+  
+  .right {
+    text-align: center;
+    right: 0;
+    background-color: tan;
+    color: darkslategray;
+  }
+
+.popup {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.popup_content {
+    background-color: cornsilk;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 40%;
+}
+
+.about_close,
+.howto_close,
+.cust_close,
+.EA_close,
+.Est_close,
+.order_close,
+.item_close,
+.visit_close,
+.update_cust_close,
+.update_EA_close,
+.update_Est_close,
+.update_order_close,
+.update_item_close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about_close:hover,
+.howto_close:hover,
+.cust_close:hover,
+.EA_close:hover,
+.Est_close:hover,
+.order_close:hover,
+.item_close:hover,
+.visit_close:hover,
+.update_cust_close:hover,
+.update_EA_close:hover,
+.update_Est_close:hover,
+.update_order_close:hover,
+.update_item_close:hover,
+.about_close:focus,
+.howto_close:focus,
+.cust_close:focus,
+.EA_close:focus,
+.Est_close:focus,
+.order_close:focus,
+.item_close:focus,
+.visit_close:focus,
+.update_cust_close:focus,
+.update_EA_close:focus,
+.update_Est_close:focus,
+.update_order_close:focus,
+.update_item_close:focus {
+    color: darkslategray;
+    text-decoration: none;
+    cursor: pointer;
+}
