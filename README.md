@@ -27,8 +27,8 @@
 
 
 ## malloc (Heap Management) - FALL 2020
-About : Utilizes a linked list to keep track of free blocks in order to perform heap management; It performs the malloc, calloc, and realloc commands, using an allocation algorithm choice of best fit, worst fit, next fit, or first fit. This was programmed and ran on a Linux Fedora (64-bit) Linux virtual machine using Virtual Box.
-How to Run :
+* About : Utilizes a linked list to keep track of free blocks in order to perform heap management; It performs the malloc, calloc, and realloc commands, using an allocation algorithm choice of best fit, worst fit, next fit, or first fit. This was programmed and ran on a Linux Fedora (64-bit) Linux virtual machine using Virtual Box.
+* How to Run :
   1. Navigate to directory
   2. Compile "malloc.c" and enter the command "env LD_PRELOAD=lib/libmalloc-[fit_name].so tests/[test_name].c"
   3. Run "bfwf.c" for testing best fit (bf) and worst fit (wf) or "ffnf.c" for testing first fit (ff) and next fit (nf). Make sure to change the fit_name and test_name and enter the one you want to test.
@@ -39,8 +39,8 @@ How to Run :
 
 
 ## MavShell (msh) - FALL 2020
-About : Shell that supports up to 10 command-line arguments that performs different commands, including “history”, “ls” and “cd” (programmed in C)
-How to Run : 
+* About : Shell that supports up to 10 command-line arguments that performs different commands, including “history”, “ls” and “cd” (programmed in C)
+* How to Run : 
   1. Navigate to directory
   2. In a terminal/command window, compile and run msh.c ("gcc msh.c")
   3. Enter any of the available commands ("![command#_from_history]" - performs up to 15 previous commands which are stored in the history of the shell, "history", "cd [directory_name]", "showpids" - shows process id's of previously ran processes (ran using execvP)", other commands which are ran using fork() and execvP() searching the current working directory first, then /usr/local/bin, then /local/bin, and finally /bin)
